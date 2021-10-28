@@ -1,0 +1,38 @@
+/* .box {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  margin-right: 0;
+} */
+.name {
+  font-size: 16px;
+  font-weight: 700;
+}
+.number {
+  font-size: 14px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.button {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  color: white;
+}

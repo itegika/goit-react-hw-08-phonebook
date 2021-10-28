@@ -1,0 +1,13 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100% - 30px);
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.text {
+  font-size: 38px;
+  margin-top: 0;
+  text-align: center;
+}
