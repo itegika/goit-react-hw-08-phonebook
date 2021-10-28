@@ -2,7 +2,6 @@
   "name": "goit-react-hw-08-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://itegika.github.io/goit-react-hw-08-phonebook/",
   "dependencies": {
     "@mui/material": "^5.0.6",
     "@reduxjs/toolkit": "^1.6.2",
@@ -30,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
