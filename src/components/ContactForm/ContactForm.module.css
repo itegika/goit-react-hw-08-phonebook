@@ -1,12 +1,9 @@
 .form {
   padding: 20px;
-  border: 1px solid #46484b;
-  border-radius: 20px;
+  border: 1px solid #2196f3;
+  border-radius: 15px;
   margin-bottom: 15px;
 }
-/* .input{
-  border: 1px #2196f3;
-} */
 
 .button {
   font-family: Georgia, "Times New Roman", Times, serif;

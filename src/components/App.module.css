@@ -4,13 +4,13 @@
   margin-right: auto;
 }
 .phonebook {
-  font-size: 28px;
+  font-size: 26px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .contacts {
-  font-size: 28px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }

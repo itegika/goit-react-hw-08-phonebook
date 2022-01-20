@@ -1,5 +1,4 @@
 export const getContacts = (state) => state.contacts.items;
-console.log(getContacts);
 export const getFilter = (state) => state.contacts.filter;
 export const getFilteredContacts = (state) => {
   const contacts = getContacts(state);

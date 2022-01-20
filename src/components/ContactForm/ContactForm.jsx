@@ -40,13 +40,13 @@ function ContactForm() {
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
       <InputField
-        // className={styles.input}
+        className={styles.input}
         {...inputAttr.name}
         value={name}
         onChange={handleNameChange}
       />
       <InputField
-        // className={styles.input}
+        className={styles.input}
         {...inputAttr.number}
         value={number}
         onChange={handleNumberChange}
