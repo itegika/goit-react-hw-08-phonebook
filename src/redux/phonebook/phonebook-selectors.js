@@ -6,6 +6,6 @@ export const getFilteredContacts = (state) => {
   const filter = getFilter(state);
   const normalizedFilter = filter.toLowerCase().trim();
   return contacts.filter((contact) =>
-    contact?.name.toLowerCase().includes(normalizedFilter)
+    contact?.name?.toLowerCase().includes(normalizedFilter)
   );
 };
